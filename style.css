@@ -1,0 +1,39 @@
+:root{
+--violetaUno: #800280 ;
+--violetaDos: #630160 ;
+--violetaTres:#460140 ;
+--violetaCuatro: #290020;
+--violetaCinco:#0c0000;
+}
+body{
+  padding: 8px;
+  margin: 0;
+  background: var(--violetaUno);
+}
+header{
+  position: relative;
+}
+.contenedor-botones{
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px; /* 2 filas de 100px */
+  margin-right: 75%;
+}
+button{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+  margin: 20px;
+  color: var(--violetaUno);
+  background: var(--violetaCinco);
+  border: rgb(128, 128, 128);
+  border-radius: 25px
+}
+ul{
+  border: 2px solid grey;
+}
+img{
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  border: 3px solid gray;
+  border-radius: 200px;
+}
